@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://brandonreid.github.io/portfolio-2020s',
+  pathPrefix: '/portfolio-2020s',
+  title: 'Portfolio for Brandon Reid',
+  subtitle: 'Brandon Reid is a designer that can code.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -22,12 +22,16 @@ module.exports = {
     {
       label: 'Contact me',
       path: '/pages/contacts'
+    },
+    {
+      label: 'My Work',
+      path: '/protected-portfolio'
     }
   ],
   author: {
     name: 'John Doe',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Brandon Reid is a designer that can code.',
     contacts: {
       email: '',
       facebook: '#',
