@@ -111,45 +111,6 @@
   Link: </portfolio-2020s/component---src-templates-post-template-js-aea59e6918f2d2449007.js>; rel=preload; as=script
   Link: </portfolio-2020s/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </portfolio-2020s/page-data/posts/perfecting-the-art-of-perfection/page-data.json>; rel=preload; as=fetch; crossorigin
-/portfolio-2020s/posts/the-origins-of-social-stationery-lettering
-  Link: </portfolio-2020s/webpack-runtime-eede318a0da3ae715ffe.js>; rel=preload; as=script
-  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
-  Link: </portfolio-2020s/framework-65ab4d3b94aeb6d249e2.js>; rel=preload; as=script
-  Link: </portfolio-2020s/0eceb729-1142bc3fefe0fe74155a.js>; rel=preload; as=script
-  Link: </portfolio-2020s/532a2f07-755f30961506b5df4692.js>; rel=preload; as=script
-  Link: </portfolio-2020s/app-1d087a38b8c516fe3366.js>; rel=preload; as=script
-  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
-  Link: </portfolio-2020s/92deab55ba561d3b53fc446505b7643a1d422178-675f2012251cf22cfd9e.js>; rel=preload; as=script
-  Link: </portfolio-2020s/643651a62fb35a9bb4f20061cb1f214a352d7976-740e979a1aeec909eb70.js>; rel=preload; as=script
-  Link: </portfolio-2020s/component---src-templates-post-template-js-aea59e6918f2d2449007.js>; rel=preload; as=script
-  Link: </portfolio-2020s/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </portfolio-2020s/page-data/posts/the-origins-of-social-stationery-lettering/page-data.json>; rel=preload; as=fetch; crossorigin
-/portfolio-2020s/posts/humane-typography-in-the-digital-age
-  Link: </portfolio-2020s/webpack-runtime-eede318a0da3ae715ffe.js>; rel=preload; as=script
-  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
-  Link: </portfolio-2020s/framework-65ab4d3b94aeb6d249e2.js>; rel=preload; as=script
-  Link: </portfolio-2020s/0eceb729-1142bc3fefe0fe74155a.js>; rel=preload; as=script
-  Link: </portfolio-2020s/532a2f07-755f30961506b5df4692.js>; rel=preload; as=script
-  Link: </portfolio-2020s/app-1d087a38b8c516fe3366.js>; rel=preload; as=script
-  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
-  Link: </portfolio-2020s/92deab55ba561d3b53fc446505b7643a1d422178-675f2012251cf22cfd9e.js>; rel=preload; as=script
-  Link: </portfolio-2020s/643651a62fb35a9bb4f20061cb1f214a352d7976-740e979a1aeec909eb70.js>; rel=preload; as=script
-  Link: </portfolio-2020s/component---src-templates-post-template-js-aea59e6918f2d2449007.js>; rel=preload; as=script
-  Link: </portfolio-2020s/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </portfolio-2020s/page-data/posts/humane-typography-in-the-digital-age/page-data.json>; rel=preload; as=fetch; crossorigin
-/portfolio-2020s/posts/the-birth-of-movable-type
-  Link: </portfolio-2020s/webpack-runtime-eede318a0da3ae715ffe.js>; rel=preload; as=script
-  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
-  Link: </portfolio-2020s/framework-65ab4d3b94aeb6d249e2.js>; rel=preload; as=script
-  Link: </portfolio-2020s/0eceb729-1142bc3fefe0fe74155a.js>; rel=preload; as=script
-  Link: </portfolio-2020s/532a2f07-755f30961506b5df4692.js>; rel=preload; as=script
-  Link: </portfolio-2020s/app-1d087a38b8c516fe3366.js>; rel=preload; as=script
-  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
-  Link: </portfolio-2020s/92deab55ba561d3b53fc446505b7643a1d422178-675f2012251cf22cfd9e.js>; rel=preload; as=script
-  Link: </portfolio-2020s/643651a62fb35a9bb4f20061cb1f214a352d7976-740e979a1aeec909eb70.js>; rel=preload; as=script
-  Link: </portfolio-2020s/component---src-templates-post-template-js-aea59e6918f2d2449007.js>; rel=preload; as=script
-  Link: </portfolio-2020s/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </portfolio-2020s/page-data/posts/the-birth-of-movable-type/page-data.json>; rel=preload; as=fetch; crossorigin
 /portfolio-2020s/posts/a-brief-history-of-typography
   Link: </portfolio-2020s/webpack-runtime-eede318a0da3ae715ffe.js>; rel=preload; as=script
   Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
@@ -163,6 +124,45 @@
   Link: </portfolio-2020s/component---src-templates-post-template-js-aea59e6918f2d2449007.js>; rel=preload; as=script
   Link: </portfolio-2020s/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </portfolio-2020s/page-data/posts/a-brief-history-of-typography/page-data.json>; rel=preload; as=fetch; crossorigin
+/portfolio-2020s/posts/the-origins-of-social-stationery-lettering
+  Link: </portfolio-2020s/webpack-runtime-eede318a0da3ae715ffe.js>; rel=preload; as=script
+  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
+  Link: </portfolio-2020s/framework-65ab4d3b94aeb6d249e2.js>; rel=preload; as=script
+  Link: </portfolio-2020s/0eceb729-1142bc3fefe0fe74155a.js>; rel=preload; as=script
+  Link: </portfolio-2020s/532a2f07-755f30961506b5df4692.js>; rel=preload; as=script
+  Link: </portfolio-2020s/app-1d087a38b8c516fe3366.js>; rel=preload; as=script
+  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
+  Link: </portfolio-2020s/92deab55ba561d3b53fc446505b7643a1d422178-675f2012251cf22cfd9e.js>; rel=preload; as=script
+  Link: </portfolio-2020s/643651a62fb35a9bb4f20061cb1f214a352d7976-740e979a1aeec909eb70.js>; rel=preload; as=script
+  Link: </portfolio-2020s/component---src-templates-post-template-js-aea59e6918f2d2449007.js>; rel=preload; as=script
+  Link: </portfolio-2020s/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </portfolio-2020s/page-data/posts/the-origins-of-social-stationery-lettering/page-data.json>; rel=preload; as=fetch; crossorigin
+/portfolio-2020s/posts/the-birth-of-movable-type
+  Link: </portfolio-2020s/webpack-runtime-eede318a0da3ae715ffe.js>; rel=preload; as=script
+  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
+  Link: </portfolio-2020s/framework-65ab4d3b94aeb6d249e2.js>; rel=preload; as=script
+  Link: </portfolio-2020s/0eceb729-1142bc3fefe0fe74155a.js>; rel=preload; as=script
+  Link: </portfolio-2020s/532a2f07-755f30961506b5df4692.js>; rel=preload; as=script
+  Link: </portfolio-2020s/app-1d087a38b8c516fe3366.js>; rel=preload; as=script
+  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
+  Link: </portfolio-2020s/92deab55ba561d3b53fc446505b7643a1d422178-675f2012251cf22cfd9e.js>; rel=preload; as=script
+  Link: </portfolio-2020s/643651a62fb35a9bb4f20061cb1f214a352d7976-740e979a1aeec909eb70.js>; rel=preload; as=script
+  Link: </portfolio-2020s/component---src-templates-post-template-js-aea59e6918f2d2449007.js>; rel=preload; as=script
+  Link: </portfolio-2020s/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </portfolio-2020s/page-data/posts/the-birth-of-movable-type/page-data.json>; rel=preload; as=fetch; crossorigin
+/portfolio-2020s/posts/humane-typography-in-the-digital-age
+  Link: </portfolio-2020s/webpack-runtime-eede318a0da3ae715ffe.js>; rel=preload; as=script
+  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
+  Link: </portfolio-2020s/framework-65ab4d3b94aeb6d249e2.js>; rel=preload; as=script
+  Link: </portfolio-2020s/0eceb729-1142bc3fefe0fe74155a.js>; rel=preload; as=script
+  Link: </portfolio-2020s/532a2f07-755f30961506b5df4692.js>; rel=preload; as=script
+  Link: </portfolio-2020s/app-1d087a38b8c516fe3366.js>; rel=preload; as=script
+  Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
+  Link: </portfolio-2020s/92deab55ba561d3b53fc446505b7643a1d422178-675f2012251cf22cfd9e.js>; rel=preload; as=script
+  Link: </portfolio-2020s/643651a62fb35a9bb4f20061cb1f214a352d7976-740e979a1aeec909eb70.js>; rel=preload; as=script
+  Link: </portfolio-2020s/component---src-templates-post-template-js-aea59e6918f2d2449007.js>; rel=preload; as=script
+  Link: </portfolio-2020s/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </portfolio-2020s/page-data/posts/humane-typography-in-the-digital-age/page-data.json>; rel=preload; as=fetch; crossorigin
 /portfolio-2020s/pages/about/
   Link: </portfolio-2020s/webpack-runtime-eede318a0da3ae715ffe.js>; rel=preload; as=script
   Link: </portfolio-2020s/styles-083a06cb5740baaf347d.js>; rel=preload; as=script
