@@ -9,7 +9,6 @@ module.exports = {
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
-  useKatex: false,
   menu: [
     {
       label: 'Articles',
@@ -29,7 +28,7 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Brandon Reid',
     photo: '/photo.jpg',
     bio: 'Brandon Reid is a designer that can code.',
     contacts: {

@@ -2,12 +2,11 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby';
-import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
-import styles from './Layout.module.scss';
+import Footer from '../Footer';
 
 type Props = {
-  children: ReactNode,
+  children: React.ReactNode,
   title: string,
   description?: string,
   socialImage? :string
@@ -24,7 +23,7 @@ const Layout = ({
   const metaImageUrl = url + withPrefix(metaImage);
 
   return (
-    <div className={styles.layout}>
+    <div>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -35,8 +34,12 @@ const Layout = ({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Staatliches&display=swap" rel="stylesheet" />
       </Helmet>
-      {children}
+      <main>
+        {children}
+      </main>
+      <Footer />
     </div>
   );
 };
