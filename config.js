@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-  url: 'https://brandonreid.github.io/portfolio-2020s',
-  pathPrefix: '/portfolio-2020s',
+  url: 'https://brandonreid.me/',
+  pathPrefix: '/',
   title: 'Portfolio for Brandon Reid',
   subtitle: 'Brandon Reid is a designer that can code.',
   copyright: '© All rights reserved.',
