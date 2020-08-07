@@ -27,13 +27,13 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-eede318a0da3ae715ffe.js"
+    "url": "webpack-runtime-6d138dff2663b2efce26.js"
   },
   {
-    "url": "styles.cb36b6cf75e1ad8b0404.css"
+    "url": "styles.f885a3c26c16b89fb350.css"
   },
   {
-    "url": "styles-083a06cb5740baaf347d.js"
+    "url": "styles-fb0ada993e5c9c8db473.js"
   },
   {
     "url": "framework-65ab4d3b94aeb6d249e2.js"
@@ -45,33 +45,25 @@ self.__precacheManifest = [
     "url": "532a2f07-755f30961506b5df4692.js"
   },
   {
-    "url": "app-1d087a38b8c516fe3366.js"
+    "url": "app-0ebec13bc9c083c42ecd.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "acddf456c54273492bcb7c280dc4b5d5"
+    "revision": "2f9ba0cbbf10de1d09205d1234ef02cb"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-a5ec81db2317287e7376.js"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "f6081b83111aea4128c98944b7fafccc"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "228c81ee1c9716c295eb72cc4058e8e6"
   },
   {
     "url": "polyfill-8e9c08244a05f65a637b.js"
   },
   {
     "url": "manifest.json",
-    "revision": "525f8fdc673f544887998e2e653a54c5"
+    "revision": "b773e901ef06ac93343dc05e67540787"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "3704631f6a0535a98492d43f9c29aaf7"
+    "revision": "39ab36afea14f356bee4ab6eb8eca986"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -159,12 +151,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/portfolio-2020s`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/portfolio-2020s/app-1d087a38b8c516fe3366.js`))) {
+  if (!resources || !(await caches.match(`/app-0ebec13bc9c083c42ecd.js`))) {
     return await fetch(event.request)
   }
 
@@ -177,7 +169,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/portfolio-2020s/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
