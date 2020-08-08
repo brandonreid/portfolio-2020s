@@ -8,7 +8,7 @@ module.exports = {
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-174929234-1',
   menu: [
     {
       label: 'Portfolio',
@@ -25,7 +25,7 @@ module.exports = {
   ],
   author: {
     name: 'Brandon Reid',
-    photo: '/photo.jpg',
+    photo: '/photo.png',
     bio: 'Brandon Reid is a designer that can code.',
     contacts: {
       email: '',

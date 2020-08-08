@@ -7,7 +7,7 @@ const IndexTemplate = () => {
   const { subtitle: siteSubtitle } = useSiteMetadata();
 
   return (
-    <Layout title="Home" description={siteSubtitle}>
+    <Layout title="Brandon Reid – Portfolio" description={siteSubtitle}>
       <div className="portfolio-top">
         <h1>Brandon Reid <span>is a</span> designer <span>that can</span> code<span>.</span></h1>
         <div className="nav-wrapper">
