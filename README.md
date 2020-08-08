@@ -12,4 +12,3 @@ Deploy
 ```
 yarn deploy
 ```
-*For some reason, deploy knocks out the domain settings, so prob have to go to the repo settings and reassign the domain.*
