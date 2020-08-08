@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://brandonreid.me/',
-  pathPrefix: '/portfolio-2020s',
+  pathPrefix: '/',
   title: 'Portfolio for Brandon Reid',
   subtitle: 'Brandon Reid is a designer that can code.',
   copyright: '© All rights reserved.',
