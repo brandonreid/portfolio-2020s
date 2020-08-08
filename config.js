@@ -11,21 +11,17 @@ module.exports = {
   googleAnalyticsId: 'UA-73379983-2',
   menu: [
     {
-      label: 'Articles',
+      label: 'Portfolio',
       path: '/'
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/about'
     },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    },
-    {
-      label: 'My Work',
-      path: '/protected-portfolio'
-    }
+    // {
+    //   label: 'My Work',
+    //   path: '/protected-portfolio'
+    // }
   ],
   author: {
     name: 'Brandon Reid',
