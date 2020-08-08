@@ -137,19 +137,6 @@
   Link: </component---src-templates-post-template-js-fcdc4f1d575ad839dc1c.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/the-birth-of-movable-type/page-data.json>; rel=preload; as=fetch; crossorigin
-/pages/about/
-  Link: </webpack-runtime-6d138dff2663b2efce26.js>; rel=preload; as=script
-  Link: </styles-fb0ada993e5c9c8db473.js>; rel=preload; as=script
-  Link: </framework-65ab4d3b94aeb6d249e2.js>; rel=preload; as=script
-  Link: </0eceb729-1142bc3fefe0fe74155a.js>; rel=preload; as=script
-  Link: </532a2f07-755f30961506b5df4692.js>; rel=preload; as=script
-  Link: </app-0ebec13bc9c083c42ecd.js>; rel=preload; as=script
-  Link: </styles-fb0ada993e5c9c8db473.js>; rel=preload; as=script
-  Link: </92deab55ba561d3b53fc446505b7643a1d422178-80cf099827abbae746f0.js>; rel=preload; as=script
-  Link: </20e19934c602d69589a9213124171ceb5d7986a3-987dc2b650f9529b605a.js>; rel=preload; as=script
-  Link: </component---src-templates-page-template-js-e5d9bd1cb1a2ffc1672a.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/pages/about/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/a-brief-history-of-typography
   Link: </webpack-runtime-6d138dff2663b2efce26.js>; rel=preload; as=script
   Link: </styles-fb0ada993e5c9c8db473.js>; rel=preload; as=script
@@ -163,6 +150,19 @@
   Link: </component---src-templates-post-template-js-fcdc4f1d575ad839dc1c.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/a-brief-history-of-typography/page-data.json>; rel=preload; as=fetch; crossorigin
+/pages/about/
+  Link: </webpack-runtime-6d138dff2663b2efce26.js>; rel=preload; as=script
+  Link: </styles-fb0ada993e5c9c8db473.js>; rel=preload; as=script
+  Link: </framework-65ab4d3b94aeb6d249e2.js>; rel=preload; as=script
+  Link: </0eceb729-1142bc3fefe0fe74155a.js>; rel=preload; as=script
+  Link: </532a2f07-755f30961506b5df4692.js>; rel=preload; as=script
+  Link: </app-0ebec13bc9c083c42ecd.js>; rel=preload; as=script
+  Link: </styles-fb0ada993e5c9c8db473.js>; rel=preload; as=script
+  Link: </92deab55ba561d3b53fc446505b7643a1d422178-80cf099827abbae746f0.js>; rel=preload; as=script
+  Link: </20e19934c602d69589a9213124171ceb5d7986a3-987dc2b650f9529b605a.js>; rel=preload; as=script
+  Link: </component---src-templates-page-template-js-e5d9bd1cb1a2ffc1672a.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/pages/about/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/humane-typography-in-the-digital-age
   Link: </webpack-runtime-6d138dff2663b2efce26.js>; rel=preload; as=script
   Link: </styles-fb0ada993e5c9c8db473.js>; rel=preload; as=script
