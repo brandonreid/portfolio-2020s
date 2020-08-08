@@ -176,7 +176,7 @@ const IndexTemplate = () => {
             <h3>Case study</h3>
             <p>Field Auditing Application <span>The story of a mobile web app refactor.</span></p>
             <div className="separator"></div>
-            <a href="{{ '/pieces/field-auditing-application/' | prepend: site.baseurl }}">READ</a>
+            <a href="/case-study/field-auditing-application/">READ</a>
           </div>
         </div>
         <svg

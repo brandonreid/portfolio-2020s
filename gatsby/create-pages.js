@@ -56,6 +56,12 @@ const createPages = async ({ graphql, actions }) => {
         component: path.resolve('./src/templates/page-template.js'),
         context: { slug: edge.node.fields.slug }
       });
+    } else if (_.get(edge, 'node.frontmatter.template') === 'headfootwrapper') {
+      createPage({
+        path: edge.node.fields.slug,
+        component: path.resolve('./src/templates/headfootwrapper-template.js'),
+        context: { slug: edge.node.fields.slug }
+      });
     } else if (_.get(edge, 'node.frontmatter.template') === 'post') {
       createPage({
         path: edge.node.fields.slug,
