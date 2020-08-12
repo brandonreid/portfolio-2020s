@@ -25,14 +25,14 @@ const About = () => (
         </div>
       </div>
       <div className="about-photos">
-        <img src="/img/about/award.jpg" alt="Stunting with an award." />
+        <img src="/img/about/me-and-kiddos.jpg" alt="Stunting with an award." />
         <img src="/img/about/boomtown.jpg" alt="Boomtown demo day." />
-        <img src="/img/about/jude.jpg" alt="My baby son, Jude." />
         <img src="/img/about/howaii.jpg" alt="My family in Howaii." />
-        <img src="/img/about/kabobs.jpg" alt="Kabobs on the grill." />
         <img src="/img/about/michele.jpg" alt="My wife and I at a lake." />
         <img src="/img/about/pool.jpg" alt="At the pool hall." />
+        <img src="/img/about/pizza.jpg" alt="Some homemade pizza." />
         <img src="/img/about/willow.jpg" alt="My daughter and I." />
+        <img src="/img/about/jude-3.jpg" alt="My baby son, Jude." />
       </div>
     </Layout>
 );
