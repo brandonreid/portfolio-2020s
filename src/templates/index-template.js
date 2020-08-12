@@ -243,8 +243,27 @@ const IndexTemplate = () => {
             </div>
           </div>
         </div>
-
         <div className="container">
+          {/* <div>
+            <h3>Read a Case Study</h3>
+            <img src="img/port/case-study.jpg" alt="Case study UI hint" />
+            <p>
+              <a
+                href="/case-study/field-auditing-application/"
+              >Field Auditing Application – The story of a mobile web app refactor -&gt;</a></p>
+          </div> */}
+          <div className="portfolio-bonus">
+            <h3>Bonus!</h3>
+            <p>
+              I also have a other skills like leadership, business/sales support, and project
+              management. Check out this&nbsp;
+              <a
+                href="https://www.figma.com/file/DusTJV3cCQs9V6Ho5WTRnd/UX-Integrated-Product-Sprint-Cycle?node-id=21%3A0"
+                target="_blank"
+              >UX Integrated Product Sprint Cycle</a> I designed and detailed in Figma!
+            </p>
+          </div>
+
           {/* <div className="title-row">
             <h3>Design Systems</h3>
             <p>
