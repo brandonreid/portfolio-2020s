@@ -4,7 +4,7 @@
   z-index: 20;
   padding-bottom: 2em;
   @media (min-width: $smbp) {
-    height: #{'calc(50vh + 250px)'};
+    height: calc(50vh + 250px);
     min-height: 550px;
     padding-bottom: 0;
   }
@@ -45,7 +45,7 @@
     @media (min-width: $mdbp) {
       // margin: calc(42% - 250px) auto 0;
       margin-top: 0;
-      top: #{'calc(55% - 250px)'};
+      top: calc(55% - 250px);
     }
   }
   .triangle {
@@ -302,13 +302,13 @@
       }
     }
     @media (min-width: $mnbp) {
-      width: #{'calc(50% - 1em)'};
+      width: calc(50% - 1em);
       display: inline-block;
       vertical-align: top;
       margin: 0 0 1em 1em;
     }
     @media (min-width: $lgbp) {
-      width: #{'calc(33% - 1em)'};
+      width: calc(33% - 1em);
       margin: 0 0 3.5em 1em;
     }
   }
@@ -374,14 +374,14 @@ $shadow-tall: 2px 15px 40px;
     margin-top: 8px;
     margin-bottom: 24px;
     margin-left: -60px;
-    width: #{'calc(100% + (60px * 2))'};
+    width: calc(100% + (60px * 2));
     max-width: initial;
   }
   &_full-img {
     display: none;
   }
   @media (min-width: $smbp) {
-    max-width: #{'calc(100% - (276px + 24px))'};
+    max-width: calc(100% - (276px + 24px));
     position: relative;
     margin-bottom: 12em;
     p {
@@ -391,7 +391,7 @@ $shadow-tall: 2px 15px 40px;
       position: absolute;
       max-width: 420px;
       top: 50%;
-      left: #{'calc(65% + 24px)'};
+      left: calc(65% + 24px);
       margin: 0;
       transform: translateY(-50%);
       z-index: 5;
@@ -401,7 +401,7 @@ $shadow-tall: 2px 15px 40px;
       display: block;
       width: 267px;
       position: absolute;
-      left: #{'calc(100% + 40px)'};
+      left: calc(100% + 40px);
       top: 50%;
       transform: translateY(-50%);
       box-shadow: $shadow-tall rgba(#293134, 0.24);
@@ -416,12 +416,12 @@ $shadow-tall: 2px 15px 40px;
     }
     &--left &_sm-img {
       left: auto;
-      right: #{'calc(65% + 24px)'};
+      right: calc(65% + 24px);
       box-shadow: $shadow-small rgba(#2C040F, 0.2);
     }
     &--left &_full-img {
       left: auto;
-      right: #{'calc(100% + 40px)'};
+      right: calc(100% + 40px);
       box-shadow: $shadow-tall rgba(#2C040F, 0.24);
     }
   }
@@ -497,7 +497,7 @@ $shadow-tall: 2px 15px 40px;
     img {
       box-shadow: 0 3px 24px 0 rgba(#0F3D5B, 0.15);
       margin-left: -60px;
-      width: #{'calc(100% + (60px * 2))'};
+      width: calc(100% + (60px * 2));
       max-width: initial;
       margin-top: 8px;
       margin-bottom: 24px;
@@ -512,9 +512,9 @@ $shadow-tall: 2px 15px 40px;
       img {
         position: absolute;
         top: 50%;
-        left: #{'calc(100% - (17.5rem - 24px))'};
+        left: calc(100% - (17.5rem - 24px));
         transform: translateY(-50%);
-        width: #{'calc((17.5rem - 12px) * 2 - 40px)'};
+        width: calc((17.5rem - 12px) * 2 - 40px);
         margin: 0;
       }
     }

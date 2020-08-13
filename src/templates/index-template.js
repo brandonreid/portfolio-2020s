@@ -95,7 +95,7 @@ const IndexTemplate = () => {
           </div>
           <div className="portfolio-highlight portfolio-highlight--left" style={{ borderColor: '#B20838' }}>
             <span>Portfolio Highlight</span>
-            <h4>Trailercraft</h4>
+            <h4>Trailercraft Inc.</h4>
             <img
               className="portfolio-highlight_sm-img"
               src="img/port/trailercraft-cropped.jpg"
