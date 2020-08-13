@@ -136,7 +136,7 @@ const IndexTemplate = () => {
                 custom fields allow the client to control all content.
               </p>
             </a>
-            <a className="portfolio-item" href="http://starwarsorder.com/" target="_blank">
+            <a className="portfolio-item" href="https://starwarsorder.com/" target="_blank">
               <img src="/img/port/starwarsorder.jpg" alt="Star Wars Order" />
               <h5>Star Wars Order</h5>
               <p>Just a site that tells you the order of the Star Wars movies.</p>
