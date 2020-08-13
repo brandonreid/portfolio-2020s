@@ -62,7 +62,7 @@ const IndexTemplate = () => {
       <div className="portfolio-pieces">
         <h2>Portfolio</h2>
         <div className="container">
-          <div className="title-row">
+          <div className="title-row title-row--websites-title">
             <h3>Websites</h3>
             <p>
               Some websites I’ve made.
@@ -95,7 +95,7 @@ const IndexTemplate = () => {
           </div>
           <div className="portfolio-highlight portfolio-highlight--left" style={{ borderColor: '#B20838' }}>
             <span>Portfolio Highlight</span>
-            <h4>Trailercraft Inc.</h4>
+            <h4>Trailercraft</h4>
             <img
               className="portfolio-highlight_sm-img"
               src="img/port/trailercraft-cropped.jpg"
@@ -112,7 +112,7 @@ const IndexTemplate = () => {
               performance was key for this website. The site was server side rendered
               for SEO, but once bootstrapped on the users device, it worked like a single-page-app,
               only requesting the remaining content needed when navigating. Images were requested
-              from the device and the exact width needed was requested via
+              from the device and the exact width needed was requested via&nbsp;
               <a href="https://www.imgix.com/" target="_blank">Imgix</a>, so sizes were as optimized
               as possible. We used CosmicJS as the CMS, which in the end unfortunately proved too
               technical for the client.
@@ -195,7 +195,7 @@ const IndexTemplate = () => {
                 level of craftsmanship. Clear, documented user personas also add critical
                 perspective to solution discussions and benefit the entire organization, from
                 design and development, to documentation, content creation, sales and marketing,
-                etc.
+                and beyond.
               </p>
             </div>
             <div className="portfolio-approach_point">

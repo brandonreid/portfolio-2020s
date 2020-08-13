@@ -199,8 +199,16 @@
         }
       }
     }
-    @media (min-width: $mnbp) {
+    @media (min-width: $smbp) {
+      &--websites-title {
+        margin-bottom: 12em;
+      }
+    }
+    @media (min-width: $mdbp) {
       margin-bottom: 5em;
+      &--websites-title {
+        margin-bottom: 5em;
+      }
       p {
         span {
           display: block;
@@ -234,6 +242,9 @@
     font-size: 24px;
     line-height: 1.6;
     margin-bottom: 1em;
+    @media (min-width: $lgbp) {
+      margin-top: 12em;
+    }
   }
   .portfolio-list {
     margin-bottom: 6em;
@@ -383,7 +394,7 @@ $shadow-tall: 2px 15px 40px;
   @media (min-width: $smbp) {
     max-width: calc(100% - (276px + 24px));
     position: relative;
-    margin-bottom: 12em;
+    margin-bottom: 24em;
     p {
       max-width: 65%;
     }
@@ -426,16 +437,22 @@ $shadow-tall: 2px 15px 40px;
     }
   }
   @media (min-width: $mdbp) {
+    margin-bottom: 12em;
+    p {
+      font-size: 24px;
+      line-height: 1.6;
+    }
     &_sm-img {
       max-width: 480px;
     }
+  }
+  @media (min-width: $lgbp) {
+    margin-bottom: 16em;
   }
   @media (min-width: $xlbp) {
     max-width: 930px;
     p {
       max-width: 500px;
-      font-size: 24px;
-      line-height: 1.6;
     }
     &_sm-img {
       max-width: 480px;
@@ -492,7 +509,8 @@ $shadow-tall: 2px 15px 40px;
     justify-content: center;
     h4 {
       font-size: 28px;
-      line-height: 1.6;
+      line-height: 1;
+      margin-bottom: 0.75rem;
     }
     img {
       box-shadow: 0 3px 24px 0 rgba(#0F3D5B, 0.15);
@@ -512,9 +530,9 @@ $shadow-tall: 2px 15px 40px;
       img {
         position: absolute;
         top: 50%;
-        left: calc(100% - (17.5rem - 24px));
+        left: calc(75%);
         transform: translateY(-50%);
-        width: calc((17.5rem - 12px) * 2 - 40px);
+        width: calc(50%);
         margin: 0;
       }
     }
