@@ -115,8 +115,7 @@ const IndexTemplate = () => {
               from the device and the exact width needed was requested via
               <a href="https://www.imgix.com/" target="_blank">Imgix</a>, so sizes were as optimized
               as possible. We used CosmicJS as the CMS, which in the end unfortunately proved too
-              technical for the client, who eventually had their agency migrate to another service,
-              losing all the awesomeness.
+              technical for the client.
             </p>
           </div>
           <h4 className="portfolio-list-intro">A couple more</h4>

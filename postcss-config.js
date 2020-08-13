@@ -13,7 +13,6 @@ module.exports = [
       'font',
       'font-size',
       'height',
-      'line-height',
       'letter-spacing',
       'margin',
       'margin-top',
@@ -29,7 +28,11 @@ module.exports = [
       'width',
       'max-width'
     ],
-    selectorBlackList: [],
+    selectorBlackList: [
+      'html',
+      'body',
+      'img'
+    ],
     replace: true,
     mediaQuery: false,
     minPixelValue: 0
