@@ -39,6 +39,7 @@ const IndexTemplate = () => {
           <nav>
             <ul>
               <li><a className="active" href="/">Portfolio</a></li>
+              <li><a href="/protected-portfolio">More Works</a></li>
               <li><a href="/about">About Brandon</a></li>
             </ul>
           </nav>

@@ -15,13 +15,13 @@ module.exports = {
       path: '/'
     },
     {
+      label: 'More Works',
+      path: '/protected-portfolio'
+    },
+    {
       label: 'About me',
       path: '/about'
     },
-    // {
-    //   label: 'My Work',
-    //   path: '/protected-portfolio'
-    // }
   ],
   author: {
     name: 'Brandon Reid',
