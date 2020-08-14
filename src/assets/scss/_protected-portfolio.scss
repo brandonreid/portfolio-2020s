@@ -1,7 +1,7 @@
 .the-door {
   background-color: darken($darkBlue, 5%);
   min-height: 92vh;
-  padding: 2em;
+  padding: 2em 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,11 +10,11 @@
   label {
     background-color: $spark;
     font-family: $headerFont;
-    font-size: 51px;
+    font-size: 24px;
     line-height: 1;
     padding: 16px;
     text-align: center;
-    margin-top: 24px;
+    margin-top: 16px;
     position: relative;
     opacity: 0;
     animation: show-label 0.5s ease-in 1.5s forwards;
@@ -22,17 +22,35 @@
     svg {
       position: absolute;
       bottom: 100%;
-      right: 50px;
+      right: 24px;
+      width: 36px;
+      height: auto;
       path { fill: $spark; }
+    }
+
+    @media (min-width: $mnbp) {
+      font-size: 36px;
+    }
+    @media (min-width: $smbp) {
+      font-size: 51px;
+      margin-top: 24px;
+      svg {
+        right: 50px;
+        width: 72px;
+      }
     }
   }
 
   &_general-msg {
     color: white;
+    width: 100%;
     max-width: 600px;
     padding: 24px 8px;
-    font-size: 24px;
+    font-size: 16px;
     margin: 0;
+    @media (min-width: $mnbp) {
+      font-size: 24px
+    }
   }
 
   &_err-msg {
@@ -171,8 +189,8 @@
   max-width: 600px;
 
   input {
-    font-size: 51px;
-    height: 82px;
+    font-size: 35px;
+    height: 66px;
     background-color: $text;
     color: white;
     border: none;
@@ -190,14 +208,24 @@
     background-color: $link;
     border: none;
     font-family: $headerFont;
-    font-size: 36px;
-    height: 82px;
-    line-height: 82px;
+    font-size: 24px;
+    height: 66px;
     padding: 0 16px;
     cursor: pointer;
 
     &[disabled] {
       color: rgba($text, 0.5);
+    }
+  }
+
+  @media (min-width: $mnbp) {
+    input {
+      font-size: 51px;
+      height: 82px;
+    }
+    button {
+      font-size: 36px;
+      height: 82px;
     }
   }
 
