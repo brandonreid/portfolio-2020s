@@ -80,6 +80,7 @@
   height: 96px;
   overflow: hidden;
   position: relative;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
 
   @media (min-width: $mnbp) {
     height: 180px;
