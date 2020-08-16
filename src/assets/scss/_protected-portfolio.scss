@@ -204,6 +204,10 @@
     &:focus {
       border-bottom-color: $link;
     }
+
+    &[disabled] {
+      color: rgba(white, 0.5);
+    }
   }
   button {
     background-color: $link;

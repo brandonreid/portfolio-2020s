@@ -69,6 +69,7 @@ const Login = () => {
           autoFocus
           type="password"
           value={password}
+          disabled={submitting}
           onChange={(e) => {
             setPassword(e.target.value);
           }}
