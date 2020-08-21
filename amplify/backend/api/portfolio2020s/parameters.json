@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "portfolio2020s",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authportfolio2020s7d6a7ae4",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+type ProtectedPort @model @auth(rules: [{allow: owner, ownerField: "userId"}]) {
+  id: ID!
+  markup: String!
+}

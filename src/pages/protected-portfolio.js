@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import cn from 'classnames';
 import { Auth, Hub } from 'aws-amplify';
 import LittleHeader from '../components/LittleHeader';
+import ProtectedPortContent from '../components/protected-port-content';
 
 import Layout from '../components/Layout';
 
@@ -105,23 +106,24 @@ const ProtectedPortfolio = (props) => {
     return () => Hub.remove('auth', updateUser); // cleanup
   }, [user, setUser]);
 
-  const logOut = async () => {
-    try {
-      await Auth.signOut();
-    } catch (error) {
-      console.error(error);
-    }
-  };
+  // const logOut = async () => {
+  //   try {
+  //     await Auth.signOut();
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // };
 
   return (
     <Layout {...props} title="My Work">
       <LittleHeader />
       {!user ? <Login /> : (
         <>
-          <h1>View Portfolio</h1>
+          {/* <h1>View Portfolio</h1>
           <button onClick={() => {
             logOut();
-          }}>Logout</button>
+          }}>Logout</button> */}
+          <ProtectedPortContent />
         </>
       )}
     </Layout>
